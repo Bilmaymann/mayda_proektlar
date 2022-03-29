@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(143deg, #e3edfc, #ebf3fd);
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-area {
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: inset 6.61px 6.61px 11px #a4bfd8ad,
+    inset -6.61px -6.61px 11px #fff;
+    justify-content: center;
+}
+#grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img{
+    width: 100px;
+    height: 100px;
+}
